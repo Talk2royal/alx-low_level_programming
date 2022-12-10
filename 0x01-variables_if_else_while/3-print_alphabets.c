@@ -13,7 +13,7 @@ int main(void)
 	for (letter = 'a'; letter <= 'z'; letter++)
 		putchar(letter);
 
-	for (uppercase = 'A'; uppercase <= 'Z' uppercase++)
+	for (uppercase = 'A'; uppercase <= 'Z'; uppercase++)
 		putchar(uppercase);
 
 	putchar('\n');
