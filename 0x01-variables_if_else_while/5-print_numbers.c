@@ -7,12 +7,13 @@
  */
 int main(void)
 {
-int n;
+	int n;
 
-for (num = 0; num < 10; num++)
-{
-printf("%d", n);
-}
-printf("n\");
+	for (num = 0; num < 10; num++)
+	{
+		printf("%d", n);
+	}
+
+	printf("\n");
 	return (0);
 }
