@@ -10,13 +10,13 @@ int main(void)
 	int n;
 	char ch;
 
-	for (num = 48; num <= 56; num++)
+	for (n = 48; num <= 56; n++)
 	{
 		putchar(num);
 	}
-	for (letter = 'a'; ch <= 'f'; ch++)
+	for (ch = 'a'; ch <= 'f'; ch++)
 	{
-		putchar(letter);
+		putchar(ch);
 	}
 
 	putchar('\n');
