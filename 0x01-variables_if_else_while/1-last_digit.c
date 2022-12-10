@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - clear
+ * main - annoying
  *
  * Return: 0
  */
