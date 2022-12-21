@@ -1,7 +1,7 @@
-#include <string.h>
+#include "main.h"
 
 /**
- * *_strcat - concatenates characters
+ * _strcat - concatenates characters
  * @dest: destination character
  * @scr: source character
  *
@@ -10,7 +10,20 @@
 
 char *_strcat(char *dest, char *scr)
 {
-	char *result = strcat(dest, src);
+	int i;
+	int j;
 
-	return (result);
+	i = 0;
+	while (dest[i] != '\0')
+	{
+		i++;
+	}
+	j = 0;
+	while (src[j] != '\0')
+	{
+		dest[i] = scr[j];
+		i++;
+		j++;
+	}
+	dest[i] = '\0';
 }
