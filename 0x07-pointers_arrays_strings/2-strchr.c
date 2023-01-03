@@ -2,27 +2,43 @@
 #include <stdio.h>
 
 /**
- * _strchr - a function that locates a character in a string
- * @s: pointer to the address that will be used locate the intended char
- * @c: parameter variable for the char that will be look for
- * Return: address of the char if found or NULL if not
+ * *_strchr - locate a character in a string
+ *
+ * @s: string to be searched
+ * @c: character to be searched for
+ *
+ * Return: NULL if character is not found or return address of occurence
  */
 
 char *_strchr(char *s, char c)
 {
+	int checker;
+	int length;
 	int i;
 
-	i = -1;
-	do {
+	char *ptr;
+	char *retval;
+
+	length = strlen(s);
+	i = 0;
+
+	while (i <= length)
+	{
+		if (s[i] == c)
+		{
+			checker = 10;
+			ptr = &s[i];
+
+			break;
+		}
+
 		i++;
-	} while (*(s + i) != c);
-	if (*(s + i) == c)
-	{
-		return (s + i);
-	}
-	else
-	{
-		return (NULL);
 	}
 
+	if (checker == 10)
+		retval = ptr;
+	else
+		retval = NULL;
+
+	return (retval);
 }
