@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <string.h>
 
-/**
- * NOTE: I had to split my function into two
- * to comply with the betty doc style
- * of not more than 40 lines per fucntion
+/*
+ *	 NOTE: I had to split my function into two
+ *	 to comply with the betty doc style
+ *	 of not more than 40 lines per fucntion
  */
 
 /**
