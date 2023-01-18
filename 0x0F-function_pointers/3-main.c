@@ -1,7 +1,7 @@
 #include "3-calc.h"
 #include <stdio.h>
-#include <string.h> /*for atoi*/
-#include <stdlib.h> /*for exit*/
+#include <string.h>
+#include <stdlib.h>
 
 /**
  * main - entry point
@@ -36,8 +36,8 @@ int main(int argc, char *argv[])
 	}
 
 	if (
-			(*(argv[2]) == '/' && b == 0) ||
-			(*(argv[2]) == '%' && b == 0)
+			(atoi(argv[2]) == '/' && b == 0) ||
+			(atoi(argv[2]) == '%' && b == 0)
 			)
 	{
 		printf("Error\n");
