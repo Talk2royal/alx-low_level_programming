@@ -1,13 +1,13 @@
-#include "3-calc.h"
 #include <stdio.h>
-#include <string.h>
 #include <stdlib.h>
+#include "3-calc.h"
 
 /**
  * main - entry point
  *
  * @argc: argument count
  * @argv: argument vector
+ *
  * Return: integer value
  */
 
@@ -36,9 +36,9 @@ int main(int argc, char *argv[])
 	}
 
 	if (
-			(atoi(argv[2]) == '/' && b == 0) ||
-			(atoi(argv[2]) == '%' && b == 0)
-			)
+		(atoi(argv[2]) == '/' && b == 0) ||
+		(atoi(argv[2]) == '%' && b == 0)
+		)
 	{
 		printf("Error\n");
 		exit(100);
