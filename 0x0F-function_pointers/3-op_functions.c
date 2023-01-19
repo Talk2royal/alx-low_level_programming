@@ -1,9 +1,10 @@
 /**
- * op_add - adds @a and @b
- * @a: input 1
- * @b: input 24
+ * op_add - perform addition operation
  *
- * Return: sum of @a and @b
+ * @a: first number
+ * @b: second number
+ *
+ * Return: result
  */
 
 int op_add(int a, int b)
@@ -12,12 +13,14 @@ int op_add(int a, int b)
 }
 
 /**
- * op_sub - gets the difference of @a and @b
- * @a: input 1
- * @b: input 2
+ * op_sub - perform subtraction operation
  *
- * Return: difference of @a and @b
+ * @a: first number
+ * @b: second number
+ *
+ * Return: result
  */
+
 
 int op_sub(int a, int b)
 {
@@ -25,12 +28,10 @@ int op_sub(int a, int b)
 }
 
 /**
- * op_mul - multiplies @a and @b
+ * op_mul - perform multiplication operation
  *
- * @a: input 1
- * @b: input 2
- *
- * Return: product of @a and @b
+ * @a: first number
+ * @b: second number
  */
 
 int op_mul(int a, int b)
@@ -39,12 +40,11 @@ int op_mul(int a, int b)
 }
 
 /**
- * op_div - divides @a by @b
+ * op_div - perform division operation
+ * @a: first number
+ * @b: second number
  *
- * @a: input 1
- * @b: input 2
- *
- * Return: results of the division @a and @b
+ * Return: result
  */
 
 int op_div(int a, int b)
@@ -53,12 +53,11 @@ int op_div(int a, int b)
 }
 
 /**
- * op_mod - gets the reminder of the division between @a and @b
+ * op_mod - perform modulus operation
+ * @a: first number
+ * @b: second number
  *
- * @a: input 1
- * @b: input 2
- *
- * Return: the remainder
+ * Return: result
  */
 
 int op_mod(int a, int b)
